@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=25D366&center=true&vCenter=true&width=700&lines=WhatsApp+AI+Agent+%F0%9F%A4%96;Répond+à+tes+followers+24h%2F24;Vend+tes+produits+automatiquement;Propulsé+par+Groq+%2B+Llama+3.3" alt="Typing animation" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=25D366&height=200&section=header&text=WhatsApp%20AI%20Agent%20🤖&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Répond%20à%20tes%20followers%2024h%2F24%20·%20Propulsé%20par%20Groq%20%2B%20Llama%203.3&descAlignY=58&descSize=16&animation=fadeIn" alt="WhatsApp AI Agent" width="100%"/>
 
 <br/>
 
@@ -386,6 +386,6 @@ Projet open-source sous licence **MIT** — libre d'utilisation, de modification
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=25D366&center=true&vCenter=true&width=500&lines=Merci+d'avoir+utilisé+ce+projet+%F0%9F%99%8F;Une+%E2%AD%90+sur+le+repo+fait+toujours+plaisir+%3B)" alt="Footer animation" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=25D366&height=100&section=footer&text=DIAWANE%20Ramatoulaye&fontSize=20&fontColor=ffffff&fontAlignY=65&desc=Automatise%20le%20répétitif.%20Concentre-toi%20sur%20ce%20qui%20compte.&descAlignY=85&descSize=12" alt="Footer" width="100%"/>
 
 </div>
