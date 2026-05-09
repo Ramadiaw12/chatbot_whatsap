@@ -5,7 +5,7 @@ et générer une réponse naturelle.
 
 import json
 import os
-from openai import OpenAI
+from groq import Groq
 from app.catalog import (
     BUSINESS_NAME,
     PRODUCTS,
@@ -14,12 +14,7 @@ from app.catalog import (
     FALLBACK_MESSAGE,
 )
 
-
-client = ChatGroq(
-    model="llama-3.3-70b-versatile",  # or "mixtral-8x7b-32768"
-    api_key=os.getenv("GROQ_API_KEY"),
-    temperature=0,
-)
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # Prépare le catalogue sous forme de texte pour le prompt
 def _build_catalog_text() -> str:
@@ -63,8 +58,9 @@ def get_reply(user_message: str, conversation_history: list[dict]) -> str:
     messages = [{"role": "system", "content": SYSTEM_PROMPT}] + conversation_history + [{"role": "user", "content": user_message}]
 
     response = client.chat.completions.create(
-        model="grok-3-fast",
+        model="llama-3.3-70b-versatile",
         max_tokens=512,
+        temperature=0,
         messages=messages,
     )
 
